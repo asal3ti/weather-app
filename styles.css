@@ -1,0 +1,52 @@
+body {
+    background: url('images/3293677.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    color: white;
+}
+.weather-card {
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    color: white;
+}
+.card-img-top {
+    width: 160px; 
+    height: auto; 
+}
+.weather-card img .flag{
+    width: 20px;
+    height: auto;
+}
+.card-text {
+    line-height: 1;
+    font-size: 0.8;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.page-item {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+#prev-page {
+    background-color: #2d2b8b ;
+    color: white;
+}
+
+#next-page {
+    background-color: #2d2b8b;
+    color: white;
+}
+.btn-group-toggle > .btn-outline-primary.active {
+    background-color: #0A0120 !important;
+    color: #fff !important; 
+    border-color: #007bff !important; 
+}
